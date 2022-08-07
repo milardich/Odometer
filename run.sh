@@ -1,0 +1,1 @@
+gcc main.c sensor.c wheel.c -o wstest -lm && ./wstest

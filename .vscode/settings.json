@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "ws.h": "c",
+        "wheel.h": "c"
+    }
+}
