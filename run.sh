@@ -1,1 +1,1 @@
-gcc main.c sensor.c wheel.c -o wstest -lm && ./wstest
+gcc -O3 main.c sensor.c wheel.c -o wstest -lm && ./wstest
