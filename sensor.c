@@ -12,7 +12,7 @@ int magnetSignal = 0;
 *   TODO:
 *   wheelTurn -> sensor -> readSensor() -> controller 
 *      ^           |
-*      <-----------+
+*      <-----------+ 
 */
 
 void* turnWheel(void* _sensor){
