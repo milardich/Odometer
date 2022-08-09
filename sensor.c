@@ -9,10 +9,7 @@ int wheelTurnTime_ms = 100;
 int magnetSignal = 0;
 
 /*
-*   TODO:
-*   wheelTurn -> sensor -> readSensor() -> controller 
-*      ^           |
-*      <-----------+ 
+*   TODO: fix incorrect readings - multithreading thing
 */
 
 void* turnWheel(void* _sensor){

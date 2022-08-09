@@ -12,7 +12,6 @@ int main(){
     loop();
     //test()
     
-
     return 0;
 }
 
@@ -28,7 +27,6 @@ void test(){
 
 void* addNumbers(){
     while(1){
-        
         sleep(0.04);
         n++;
     }
